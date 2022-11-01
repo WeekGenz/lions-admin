@@ -1,5 +1,5 @@
 // plugins.js
-module.exports = () => {
+module.exports = ({ env }) => {
   return {
     ckeditor: {
       enabled: true,
